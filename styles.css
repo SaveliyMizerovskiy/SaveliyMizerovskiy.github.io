@@ -16,8 +16,14 @@
         grid-template-rows: repeat(3, 1fr);
         column-gap: 10px;
         row-gap: 20px;
+
     }
-    
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 1fr;
+        height: 2.5rem;            /* Footer height */
+    }
     
   } 
 img{
@@ -130,10 +136,5 @@ img:hover {
 }
 
   
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 1fr;
-    height: 2.5rem;            /* Footer height */
-}
+
 
