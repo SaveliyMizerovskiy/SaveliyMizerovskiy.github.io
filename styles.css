@@ -36,9 +36,11 @@ h1{
 }
 h2{
     color: #fff;
+    padding-bottom: 10px;
 }
 h3{
     color: #fff;
+    padding-bottom: 10px;
 }
 h6{
     color: darkgoldenrod;
@@ -79,6 +81,7 @@ nav ul li a{
 }
 p{
     color: #fff;
+    padding-bottom: 10px;
 }
 a{
     color:#c4c2bb;
@@ -93,4 +96,44 @@ body{
 }
 table{
     color: #fff;
+    width: 100px;
+    
 }
+
+table, th, td {
+    border: 1px solid;
+}
+table{
+    width: 40%;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #fff;
+    color: #fff;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    content: '';
+    color:#fff;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+img:hover {
+    border: 2px solid #fff;
+    transform: scale(1.1);
+}
+
+  
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 1fr;
+    height: 2.5rem;            /* Footer height */
+}
+
